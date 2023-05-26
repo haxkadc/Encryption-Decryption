@@ -23,5 +23,34 @@ Each pair of letters is encrypted as follows:
 **b)** if the letters are in the same column of the substitution matrix, the two letters to put in the ciphertext will be the letters immediately below in the same column. Each column is considered circular. For example, the RG pair is encrypted as TD.
 
 **c)** if the letters appear in different rows and columns of the substitution matrix, each of the two letters will be encrypted with the letter in the same row but in the other letter's column. For example, the pair LE is encrypted as 35.
+<br/>
+<br/>
 
+
+## Algorithm Steps
+
+
+` 1. The main reads from the keyboard the message to be encrypted`
+
+` 2. Call encryption function (return the encrypted text)`
+
+` 3. Call the decryption function (return the decrypted text which must coincide with the starting message`
+<br/>
+<br/>
+
+
+## Results
+
+![](./Images/Result.JPG)
+
+<br/><br/><br/>
+## Alternative Version
+
+Alternate version of the main, where the replacement matrix is a random permutation of the previous array, using the `rand()` function, whose prototype is in `<stdlib.h>`, to generate random integers for exchanging in pairs of array elements.
+
+<br/>
+
+## Results
+
+![](./Images/Result2.JPG)
 
