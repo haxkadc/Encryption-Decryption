@@ -60,7 +60,7 @@ void cifratura(char testo_entrata[], char testo_uscita[],char mat_sost[][8])
       buf[0] = testo_entrata[2*i];
       buf[1] = testo_entrata[2*i+1];
 
-                                                                                             // Look for characters in mat_sost
+                                                                                             // Look for characters in matrix mat_sost
       for (j=0;j<RIGHE;j++)
       {
          for (k=0;k<COLONNE;k++)
